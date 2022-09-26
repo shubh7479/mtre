@@ -1,0 +1,231 @@
+* {
+  /* scroll-behavior: smooth; */
+  scroll-behavior: smooth;
+}
+
+
+
+#nav-btn {
+  margin-left: 10px;
+  /* background-color: rgb(47,61,94); */
+  background-color: rgb(7, 217, 178);
+
+
+}
+
+#nav-btn:hover {
+  /* background-color: rgb(7,217,178); */
+  background-color: rgb(47, 61, 94);
+
+
+}
+
+#nav-title {
+  /* color:rgb(7,217,178) ; */
+  color: rgb(47, 61, 94);
+}
+
+#nav-title:hover {
+  color: rgb(7, 217, 178);
+  /* padding: 5px; */
+}
+
+.heading {
+  width: 80%;
+  height: auto;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.about-headiing {
+  width: 100%;
+  height: auto;
+  /* background-color:rgb(7,217,178) ; */
+  color: rgb(47, 61, 94);
+  background-color: rgb(7, 217, 178);
+  border-radius: 5.5%;
+}
+
+.about-content {
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: 1px solid rgb(7, 217, 178);
+  width: 90%;
+  /* margin-left: ; */
+  margin: auto;
+  /* background-color: aquamarine; */
+}
+
+.about-content:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+}
+
+
+
+.about-headiing-content {
+  width: 90%;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.about-headiing-content h6 {
+  color: black;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 90%;
+  /* border: 1px solid rgb(230,230,230); */
+  box-sizing: border-box;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  margin: auto;
+  overflow: hidden;
+  border-radius: 15px;
+
+}
+
+th {
+  /* background-color: rgb(56, 142, 60); */
+  color: rgb(47, 61, 94);
+  /* background-color: rgb(108,122,224); */
+  background-color: rgb(7, 217, 178);
+  width: 33%;
+  font-size: 13px;
+  
+
+  /* border: 1px solid rgb(2,93,47); */
+  /* border: 1px solid gray; */
+
+
+
+}
+
+th,
+td {
+
+  padding: 10px;
+  text-align: center;
+  /* text-align: left; */
+
+
+
+
+}
+
+td:first-child {
+  /* text-align: left; */
+}
+
+
+
+
+
+
+tr:nth-child(odd) {
+
+  /* background-color: rgb(215,249,211); */
+  background-color: rgb(241, 243, 248);
+}
+
+.exam-pattern th {
+  font-size: 15px;
+
+}
+
+.exam-pattern td:first-child {
+  text-align: left;
+}
+
+.exam-pattern th:nth-child(2) {
+  background-color: rgb(47, 61, 94);
+  color: rgb(7, 217, 178);
+
+}
+
+.exam-pattern th:nth-child(1) {
+  background-color: rgb(47, 61, 94);
+  color: rgb(7, 217, 178);
+
+}
+
+
+ul li {
+  text-align: left;
+  margin-top: 10px;
+
+}
+
+.master-approach ul li:first-child {
+  margin-top: 40px;
+
+}
+
+.master-approach .rounded-lg {
+  /* border: 2px solid green; */
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+
+.master-approach .rounded-lg ul li {
+  /* border-bottom: 1px solid gray; */
+  /* padding-bottom: 5px ; */
+
+  /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
+
+}
+
+.FAQs ul li {
+  background-color: rgb(7, 217, 178);
+}
+
+.FAQs ul li p {
+  background-color: white;
+}
+
+.FAQs ul li:hover {
+  background-color: rgb(47, 61, 94);
+  color: white;
+}
+
+.FAQs ul li p div table {
+  background-color: white;
+}
+
+.fa {
+  margin-left: -20px;
+
+  /* padding-right: 5px; */
+}
+.yvideo{
+  margin-left: 22%;
+}
+.yvideo iframe{
+  width: 51vw;
+  height: 57vh;
+}
+
+
+
+@media only screen and (max-width:768px) {
+
+}
+@media only screen and (min-width: 321px)and (max-width: 768px) {
+}
+@media (min-width: 768px) and (max-width: 991px) {
+}
+@media (min-width:770px) and (max-width:1023px){
+}
+@media (min-width: 992px) and (max-width: 1024px) {
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+}
+
+@media (min-width: 1281px) {
+}
+
+
+

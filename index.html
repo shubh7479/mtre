@@ -1,0 +1,1932 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Scholarship Test for ESE and GATE aspirants -IES MASTER MTRE</title>
+  <link rel="icon" href="assets/img/logo-1.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+
+  <!-- link started  -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  <!-- <link rel="stylesheet" href="./assets/styles/styles.css" /> -->
+  <script defer src="https://unpkg.com/alpinejs@3.2.3/dist/cdn.min.js"></script>
+
+  <!-- faqs end -->
+  <!-- for icons  -->
+  <!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+
+</head>
+
+<body class="container-fluid">
+  <div>
+    <!-- navbar started -->
+    <nav
+      class="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+      <div class="container flex flex-wrap justify-between items-center mx-auto">
+        <a href="https://flowbite.com/" class="flex items-center">
+          <img src="assets/img/logo-2.png" class="mr-3 h-6 sm:h-9" alt="Flowbite Logo">
+          <!-- <span class="self-center text-xl font-semibold whitespace-nowrap dark:text-white">IES-Master</span> -->
+        </a>
+        <div class="flex md:order-2">
+          <button type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-1.5 py-2 text-center mr-3 md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
+            id="nav-btn">Register</button>
+          <button type="button"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-1.5 py-2 text-center mr-3  md:mr-0 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 "
+            id="nav-btn">login</button>
+          <button type="button"
+            class="text-white bg-blue-700  font-medium rounded-lg text-sm px-1.5 py-2 text-center mr-3  md:mr-0 "
+            id="nav-btn">Demo Test</button>
+          <button data-collapse-toggle="navbar-sticky" type="button"
+            class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg">
+              
+              <path fill-rule="evenodd"
+                d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                clip-rule="evenodd"></path>
+                
+            </svg>
+          </button>
+        </div>
+        <div class="hidden justify-between items-center w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul
+            class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <!-- <li>
+                  <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-green-700 md:p-0 dark:text-white" id="nav-title"><b>About MTRE</b></a>
+                </li> -->
+            <li>
+              <a href="#about"
+                class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                id="nav-title"><b>About</b></a>
+            </li>
+
+            <li>
+              <a href="#scholarship"
+                class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                id="nav-title"><b>Scholarship Criteria</b></a>
+            </li>
+            <li>
+              <a href="#syllabus"
+                class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                id="nav-title"><b>Test Pattern & Syllabus</b></a>
+            </li>
+            <li>
+              <a href="#register"
+                class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                id="nav-title"><b>How To Register</b></a>
+            </li>
+            <li>
+              <a href="#instruction"
+                class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                id="nav-title"><b>Instructions</b></a>
+            </li>
+            <li>
+              <a href="#t&C"
+                class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                id="nav-title"><b>T&C</b></a>
+            </li>
+            <li>
+              <a href="#FAQs"
+                class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                id="nav-title"><b>FAQs</b></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar ends -->
+
+    <img src="assets/img/banner.jpg" alt="" style="margin-top:73px ;">
+    <a href="" id="about"> </a>
+
+    <!-- about section started -->
+    <div class="heading pt-20">
+
+      <h1 class="font-medium leading-tight text-5xl mt-0 mb-2 text-black text-center   " style="color: rgb(7,217,178);">
+        <b>About MTRE</b>
+      </h1>
+      <h5 class="font-medium leading-tight text-xl mt-6 mb-2 text-center  " style="color:rgb(47,61,94) ;">MTRE is a
+        national level
+        scholarship exam conducted online by IES Master. It offers a window of opportunity to students to be at par, and
+        be one among the best engineering minds.</h5>
+    </div>
+    <div>
+      <div class="grid grid-cols-3 gap-3  text-center  mt-10">
+        <div style="">
+          <div class="about-content rounded-lg shadow-lg ">
+            <div class="about-headiing">
+              <h3 class="font-medium leading-tight text-2xl p-2 mt-0 mb-2 text-black" style="color:rgb(40,5,58);">
+                <b>Scope</b>
+              </h3>
+            </div>
+            <div class="about-headiing-content pb-14 ">
+              <h6 class="font-small leading-tight text-justify mt-0 mb-2 " style="color:rgb(47,61,94) ;">
+                MTRE is not just another scholarship exam to help reduce financial burden, it offers an insight into
+                what
+                goes into making the toppers of GATE and Engineering Services Exam. The online platform used in MTRE
+                matches
+                the orientation and level of top engineering competitive exams.
+              </h6>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="about-content  rounded-lg shadow-lg">
+          <div class="about-headiing">
+            <h3 class="font-medium leading-tight text-2xl p-2 mt-0 mb-2 text-black" style="color:rgb(47,61,94);">
+              <b>Eligibility</b>
+            </h3>
+          </div>
+          <div class="about-headiing-content pb-20">
+            <p class="font-small leading-tight text-justify mt-0 mb-2 text-black" style="color:rgb(40,5,58);">
+              MTRE is for students who have obtained their graduate or Master degree (B. Tech/M.Tech) or the students
+              are in the third/final year of their engineering degree course in Civil Engineering stream.
+            </p>
+          </div>
+
+
+
+        </div>
+        <div class="about-content  rounded-lg shadow-lg">
+          <div class="about-headiing">
+            <h3 class="font-medium leading-tight text-2xl mt-0 mb-2 p-2 text-black" style="color:rgb(47,61,94);">
+              <b>Important Dates</b>
+            </h3>
+          </div>
+          <div>
+            <div class="about-headiing-content pb-6" style="text-align: left;color:rgb(40,5,58);; ">
+
+              <p>Registration Start Date &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b
+                  style="color: rgb(47,61,94);">23 Sep, 2022</b></p>
+              <p>Registration End Date &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b
+                  style="color: rgb(47,61,94);">30 Nov, 2022</b>
+              </p>
+              <p>MTRE Exam Date&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp;<b style="color: rgb(47,61,94);">04 Dec, 2022</b></p>
+              <p>Result Date &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                &nbsp; &nbsp; &nbsp;&nbsp; <b style="color: rgb(47,61,94);">09 Jan , 2023</b></p>
+              <br>
+              <p><b>Registration Fee</b></p>
+              <p>MTRE (Session 2023-24)&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <b
+                  style="color: rgb(47,61,94);">₹ 50</b></p>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+    <!-- about section ends -->
+
+    <!-- mtre benefits start -->
+
+    <div class="container-fluid"
+      style="background-color: rgb(231,255,230); background-image: url(assets/img/bg-1.jpg);  margin-top: 100px; padding-top: 20px;  padding-bottom: 100px;">
+      <!-- <h3 class="font-medium leading-tight text-4xl mt-10 mb-2 text-black text-center  "><b>How MTRE Can Benefit You?</b></h3> -->
+      <div class="heading">
+        <h1 class="font-medium leading-tight text-4xl mt-0 mb-2 text-black text-center  "
+          style="color: rgb(7,217,178);"><b>How MTRE Can Benefit
+            You?</b></h1>
+        <h5 class="font-medium leading-tight text-xl mt-0 mb-2 text-black text-center  " style="color: rgb(47,61,94);">
+          We deliver what we promise, and
+          you get what you deserve.</h5>
+      </div>
+      <div>
+        <div class="grid grid-cols-4 gap-4  text-center  mt-10">
+
+          <div class="flex justify-center">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm p-5" style="background-color: rgb(203,228,249)">
+              <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <img class="rounded-t-lg mx-auto" src="assets/img/certificate.png" alt="" />
+              </a>
+              <div class="p-6">
+                <h5 class="text-gray-900 text-xl font-medium mb-2">Up to 100% Discount</h5>
+                <p class="text-gray-700 text-base mb-4">
+                  1,000 students across the Civil Engineering streams will be offered a discount of up to 100% of
+                  tuition fee and more.
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm p-5" style="background-color: rgb(205,245,246)">
+              <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <img class="rounded-t-lg mx-auto" src="assets/img/file.png" alt="" />
+              </a>
+              <div class="p-6">
+                <h5 class="text-gray-900 text-xl font-medium mb-2">Insight into Exam Pattern</h5>
+                <p class="text-gray-700 text-base mb-4">
+                  The questions asked in MTRE match the orientation and level of top engineering competitive exams.
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm p-5" style="background-color: rgb(239,249,218); ">
+              <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <img class="rounded-t-lg mx-auto" src="assets/img/student.png" alt="" />
+              </a>
+              <div class="p-6">
+                <h5 class="text-gray-900 text-xl font-medium mb-2">Feel of Online-based Testing Mode</h5>
+                <p class="text-gray-700 text-base mb-4">
+                  Train yourself in writing real GATE. Develop hand-eye coordination and other required skills that go
+                  into GATE exam.
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm p-5 " style="background-color:rgb(249,235,223)">
+              <a href="#!" data-mdb-ripple="true" data-mdb-ripple-color="light">
+                <img class="rounded-t-lg mx-auto" src="assets/img/podium.png" alt="" />
+              </a>
+              <div class="p-6">
+                <h5 class="text-gray-900 text-xl font-medium mb-2">Reality Check</h5>
+                <p class="text-gray-700 text-base mb-4">
+                  The first step to success is the reality check i.e. knowing your strengths and weaknesses. MTRE ranks
+                  you at a national level.
+                </p>
+
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+      </div>
+      <div class="mt-10 yvideo " >
+        <div class="rounded-lg  max-w-lg p-5 ">
+          <iframe  src="https://www.youtube.com/embed/qNZ58E5Y9f4"
+            title="MTRE - An Online Scholarship Test for GATE 2023 and ESE 2023 Aspirants" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen style=" box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; "></iframe>
+        </div>
+      </div>
+
+
+
+      <a href="" id="scholarship"></a>
+
+
+
+    </div>
+
+
+
+    <!-- </div> -->
+    <!-- mtre benefits ends -->
+
+    <!-- scholarship started -->
+
+    <div>
+      <div class="heading">
+        <h1 class="font-medium leading-tight text-4xl mt-0 mb-2 text-black text-center  "
+          style="color:rgb(7,217,178) ;"><b>Allocation of
+            Scholarships</b>
+        </h1>
+
+      </div>
+      <div class="grid grid-cols-2 gap-2  text-center  mt-10 ">
+        <div>
+          <table  > 
+            <tr  > 
+              <th>Category</th>
+              <th>MTRE All India Rank</th>
+              <th>Scholarship % on Tuition Fee</th>
+            </tr>
+            <tr>
+              <td>A</td>
+              <td>Rank 1 to 10</td>
+              <td><b>100%</b></td>
+
+            </tr>
+            <tr>
+              <td>B</td>
+              <td>Rank 11 to 30</td>
+              <td><b>75%</b></td>
+            </tr>
+
+            <tr>
+              <td>C</td>
+              <td>Rank 31 to 60</td>
+              <td><b>60%</b></td>
+            </tr>
+
+            <tr>
+              <td>D</td>
+              <td> Rank 61 to 100</td>
+              <td><b>50%</b></td>
+            </tr>
+            <tr>
+              <td>E</td>
+              <td> Rank 101 to 150</td>
+              <td><b>45%</b></td>
+            </tr>
+            <tr>
+              <td>F</td>
+              <td> Rank 151 to 210</td>
+              <td><b>40%</b></td>
+            </tr>
+
+          </table>
+
+        </div>
+        <div>
+          <table>
+            <tr>
+              <th>Category</th>
+              <th>MTRE All India Rank</th>
+              <th>Scholarship % on Tuition Fee</th>
+            </tr>
+            <tr>
+              <td>G</td>
+              <td>Rank 211 to 280</td>
+              <td><b>35%</b></td>
+
+            </tr>
+            <tr>
+              <td>H</td>
+              <td>Rank 281 to 350</td>
+              <td><b>30%</b></td>
+            </tr>
+
+            <tr>
+              <td>I</td>
+              <td>Rank 351 to 440</td>
+              <td><b>25%</b></td>
+            </tr>
+
+            <tr>
+              <td>J</td>
+              <td> Rank 441 to 550</td>
+              <td><b>20%</b></td>
+            </tr>
+            <tr>
+              <td>K</td>
+              <td> Rank 551 to 700</td>
+              <td><b>15%</b></td>
+            </tr>
+            <tr>
+              <td>L</td>
+              <td> Rank 701 to 1000</td>
+              <td><b>10%</b></td>
+            </tr>
+
+          </table>
+
+
+        </div>
+
+      </div>
+
+
+
+      <a href="" id="syllabus"></a>
+
+    </div>
+    <!-- scholarship ends  -->
+
+
+
+    <!-- exam pattern and syllabus start  -->
+
+    <div class="container-fluid syllabus "
+      style="background-color: rgb(220,231,231); background-image: url(assets/img/bg-1.jpg); opacity: 3; background-size: cover;  margin-top: 100px; padding-top: 20px;  padding-bottom: 100px;">
+      <!-- <h3 class="font-medium leading-tight text-4xl mt-10 mb-2 text-black text-center  "><b>How MTRE Can Benefit You?</b></h3> -->
+      <div class="heading">
+        <h1 class="font-medium leading-tight text-4xl mt-0 mb-2 text-black text-center" style="color:rgb(7,217,178) ;">
+          <b>Exam Pattern & Syllabus</b>
+        </h1>
+      </div>
+      <div class="ml-20 pt-10">
+
+        <div class="grid grid-cols-2 gap-2 ">
+          <div>
+            <h1 class="font-medium  text-3xl  text-left" style="color:rgb(7,217,178);  margin-left: -20px;">
+              <b>Exam Pattern</b>
+            </h1>
+            <ul>
+              <li><b><i class="fa fa-hand-o-right" aria-hidden="true"></i> Mode:</b> Online</li>
+              <li><b><i class="fa fa-hand-o-right" aria-hidden="true"></i> Time Duration:</b> 1Hr.</li>
+              <li><b><i class="fa fa-hand-o-right" aria-hidden="true"></i> Total Marks:</b> 100.</li>
+              <li><b><i class="fa fa-hand-o-right" aria-hidden="true"></i> Total Question:</b> 50 (2 Marks for each
+                Question).</li>
+              <li><b><i class="fa fa-hand-o-right" aria-hidden="true"></i> Negative Marking:</b> 0.50 marks for every
+                wrong answer.</li>
+              <li><i class="fa fa-hand-o-right" aria-hidden="true"></i> Test can be written from anywhere using system
+                (Desktop, Laptop) and web camera. Without webcam, test can not be taken.</li>
+              <li><i class="fa fa-hand-o-right" aria-hidden="true"></i> Each Questions will be provided 4 alternative
+                options.</li>
+
+            </ul>
+
+          </div>
+
+
+          <div>
+            <h1 class="font-medium  text-3xl  text-left pb-6 ml-10  " style="color:rgb(7,217,178) ;">
+              <b>Syllabus</b>
+            </h1>
+            <table>
+              <tr>
+                <th style="text-align: left ; padding-left: 40px; ">Subject </th>
+                <th>No of Questions</th>
+              </tr>
+              <tr>
+                <td style="text-align: left ; padding-left: 40px; ">Civil Engineering</td>
+                <td style="color:rgb(7,217,178);"><b>25 MCQs</b></td>
+              </tr>
+              <tr>
+                <td style="text-align: left ; padding-left: 40px; ">Engineering Mathematics</td>
+                <td style="color:rgb(7,217,178);"><b>10 MCQs</b></td>
+              </tr>
+              <tr>
+                <td style="text-align: left ; padding-left: 40px; ">Engineering Mathematics</td>
+                <td style="color:rgb(7,217,178);"><b>10 MCQs</b></td>
+              </tr>
+              <tr>
+                <td style="text-align: left ; padding-left: 40px; ">Reasoning & Aptitude</td>
+                <td style="color:rgb(7,217,178);"><b>10 MCQs</b></td>
+              </tr>
+              <tr>
+                <td style="text-align: left ; padding-left: 40px; ">General English</td>
+                <td style="color:rgb(7,217,178);"><b>05 MCQs</b></td>
+              </tr>
+            </table>
+          </div>
+
+
+
+
+
+        </div>
+
+
+      </div>
+
+
+      <div>
+        <h1 class="font-medium  text-3xl  text-left ml-10 mt-20 pb-4" style="color:rgb(7,217,178) ;">
+          <b>Allocation of Questions</b>
+        </h1>
+
+
+        <div class="grid grid-cols-4 gap-4  text-center pt-5 exam-pattern">
+          <div>
+            <table>
+              <tr>
+                <th colspan="2" style="background-color:rgb(7,217,178); color:rgb(47,61,94) ; ">Civil Engineering</th>
+                <!-- <div style=" background-color:rgb(7,217,178);"
+                >Civil Engineering</div> -->
+              <tr>
+                <th>Subjects </th>
+                <th>Ques.</th>
+              </tr>
+              <tr>
+                <td>Strength of Materials</td>
+                <td>5</td>
+
+              </tr>
+              <tr>
+                <td>Design of Concrete Structures</td>
+                <td>4</td>
+              </tr>
+
+              <tr>
+                <td>Soil Mechanics</td>
+                <td>4</td>
+              </tr>
+
+              <tr>
+                <td>Environmental
+                  Engineering</td>
+                <td> 4</td>
+              </tr>
+              <tr>
+                <td>Fluid Mechanics</td>
+                <td> 4</td>
+              </tr>
+              <tr>
+                <td>Highway Engineering</td>
+                <td>4</td>
+              </tr>
+
+            </table>
+
+
+          </div>
+          <div>
+            <table>
+              <tr>
+                <th colspan="2" style="background-color:rgb(7,217,178); color:rgb(47,61,94) ; ">Engineering Mathematics
+                </th>
+
+              <tr>
+                <th>Topics </th>
+                <th>Ques.</th>
+              </tr>
+              <tr>
+                <td>Calculus</td>
+                <td>2</td>
+
+              </tr>
+              <tr>
+                <td>Ordinary differential Equations</td>
+                <td>2</td>
+              </tr>
+
+              <tr>
+                <td>Partial differential Equations</td>
+                <td>2</td>
+              </tr>
+
+              <tr>
+                <td>Linear Algebra</td>
+                <td> 2</td>
+              </tr>
+              <tr>
+                <td>Probability & Statistics</td>
+                <td> 2</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+
+
+            </table>
+
+
+          </div>
+          <div>
+            <table>
+              <tr>
+                <th colspan="2" style="background-color:rgb(7,217,178); color:rgb(47,61,94) ; ">Reasoning and Aptitude
+                </th>
+
+              <tr>
+                <th>Subjects </th>
+                <th>Ques.</th>
+              </tr>
+              <tr>
+                <td>Numerical Computation</td>
+                <td>2</td>
+
+              </tr>
+              <tr>
+                <td>Numerical Estimation</td>
+                <td>2</td>
+              </tr>
+
+              <tr>
+                <td>Numerical Reasoning </td>
+                <td>2</td>
+              </tr>
+
+              <tr>
+                <td>Data Interpretation</td>
+                <td> 2</td>
+              </tr>
+              <tr>
+                <td>Fluid Mechanics</td>
+                <td> 4</td>
+              </tr>
+              <tr>
+                <td>Coding and Decoding</td>
+                <td>2</td>
+              </tr>
+
+            </table>
+
+
+          </div>
+          <div>
+            <table>
+              <tr>
+                <th colspan="2" style="background-color:rgb(7,217,178); color:rgb(47,61,94) ; padding-bottom: 7px; ">
+                  General English</th>
+              </tr>
+              <tr>
+                <th>Topics </th>
+                <th>Ques.</th>
+              </tr>
+              <tr>
+                <td>Common Error</td>
+                <td>5</td>
+
+              </tr>
+              <tr>
+                <td>Sentence Arrangement</td>
+                <td>1</td>
+              </tr>
+
+              <tr>
+                <td>Verbal Ability</td>
+                <td>1</td>
+              </tr>
+
+              <tr>
+                <td>Word Groups</td>
+                <td> 1</td>
+              </tr>
+              <tr>
+                <td>Synonyms-Antonyms</td>
+                <td> 1</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+              </tr>
+
+
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- exam pattern and syllabus ends  -->
+
+    <!-- the master approach start -->
+    <div>
+      <div class="heading">
+
+        <h1 class="font-medium leading-tight text-5xl mt-0 mb-2 text-black text-center   "
+          style="color: rgb(7,217,178);">
+          <b>The Master Approach</b>
+        </h1>
+      </div>
+      <div>
+        <div class="grid grid-cols-3 gap-0  text-center  mt-10 pb-20 master-approach">
+
+          <div class="flex justify-center">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm p-5" style="background-color: rgb(205,245,246)">
+
+              <div class="p-6">
+                <h5 class="text-gray-900 text-2xl font-medium mb-2" style="color: rgb(7,217,178);">Best Teaching Minds
+                </h5>
+                <p class="text-gray-700 text-base mb-4">
+                <ul>
+                  <li>
+                    <b style="font-size:20px ;">T</b>otal commitment is the bare minimum to expect from our faculties.
+                  </li>
+
+                  <li>
+                    <b style="font-size:20px ;">E</b>very new session is an opportunity for us to push the thresholds of
+                    learning further
+                  </li>
+                  <li>
+
+                    <b style="font-size:20px ;">O</b>ur unique teaching methodology allows students to solve a problem
+                    in multiple ways
+                  </li>
+                  <li>
+                    <b style="font-size:20px ;">I</b>nquistive minds are catered to the matrix of
+                    concepts and numbers in the most interesting manner
+                  </li>
+                </ul>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm p-5" style="background-color: rgb(239,249,218)">
+
+              <div class="p-6">
+                <h5 class="text-gray-900 text-2xl font-medium mb-2" style="color: rgb(7,217,178);"> Build Concepts
+                  Organically</h5>
+                <p class="text-gray-700 text-base mb-4">
+                <ul>
+                  <li><b style="font-size:20px ;">A</b>ny student who studies here can be sure of
+                    complete clarity of fundamentals</li>
+                  <li>
+                    <b style="font-size:20px ;">T</b>he speed and teaching methodology help students find an individual
+                    connect to the fundamentals
+                  </li>
+                  <li> <b style="font-size:20px ;">T</b>he healthy competitive environment help
+                    students refine the understanding of fundamentals to the required competition</li>
+                  <li><b style="font-size:20px ;">A</b>nd once in competition, the classroom
+                    program module ensures there is no looking back</li>
+                </ul>
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm p-5" style="background-color: rgb(249,235,223)">
+
+              <div class="p-6">
+                <h5 class="text-gray-900 text-2xl font-medium mb-2" style="color: rgb(7,217,178);">Classroom Approach
+                </h5>
+                <p class="text-gray-700 text-base mb-4">
+                <ul>
+                  <li><b style="font-size:20px ;">D</b>oubts are a must for a student to be an
+                    active seeker, here at IES Master</li>
+                  <li><b style="font-size:20px ;">M</b>otivating and inspiring, students remain
+                    punctual and attentive in the class throughout the session</li>
+                  <li><b style="font-size:20px ;">T</b>imely classes with a provision of back-up
+                    video lectures compensate for any unforeseen scenarios</li>
+                  <li><b style="font-size:20px ;">T</b>he ecosystem built is such that students are
+                    sucked into competition to be the best</li>
+                </ul>
+
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm p-5"
+              style="   background-color: rgb(249,235,223); margin-top: 50px;  ">
+
+              <div class="p-6">
+                <h5 class="text-gray-900 text-2xl font-medium mb-2" style="color: rgb(7,217,178);">Focussed Study
+                  Material</h5>
+                <p class="text-gray-700 text-base mb-4">
+                <ul>
+                  <li><b style="font-size:20px ;">I</b>ES Master prides itself in giving nothing
+                    but the best focussed content</li>
+                  <li><b style="font-size:20px ;">C</b>omprehensive, revised and updated, IES
+                    Master material is an example of trust and commitment</li>
+                  <li><b style="font-size:20px ;">T</b>he depth & width of the exams is captured
+                    with complete clarity and presented in the form of theory and detailed explanations</li>
+                  <li><b style="font-size:20px ;">T</b>ailored to meet the demands of competitions,
+                    it is a one-stop solution, saving precious time and energy of the students</li>
+                </ul>
+
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm p-5"
+              style="background-color: rgb(205,245,246); margin-top: 50px; ">
+
+              <div class="p-6">
+                <h5 class="text-gray-900 text-2xl font-medium mb-2" style="color: rgb(7,217,178);">Regular Assessment
+                </h5>
+                <p class="text-gray-700 text-base mb-4">
+                <ul>
+                  <li><b style="font-size:20px ;">T</b>imely assessment after completion of every
+                    subject for comprehensive progress</li>
+                  <li><b style="font-size:20px ;">M</b>ixed subject-wise tests for cyclic revision
+                    and carrying forward entire syllabus simultaneously</li>
+                  <li><b style="font-size:20px ;">P</b>erformance tracking and analysis tools
+                    designed to help increase focus on weak areas</li>
+                  <li><b style="font-size:20px ;">O</b>nline and offline test series platforms that
+                    match orientation and level of GATE and ESE</li>
+                </ul>
+
+                </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="rounded-lg shadow-lg bg-white max-w-sm p-5"
+              style="   background-color: rgb(239,249,218); margin-top: 50px;  ">
+
+              <div class="p-6">
+                <h5 class="text-gray-900 text-2xl font-medium mb-2" style="color: rgb(7,217,178);">Quality
+                  Infrastructure</h5>
+                <p class="text-gray-700 text-base mb-4">
+                <ul>
+                  <li><b style="font-size:20px ;">C</b>omfortable sitting in air-conditioned
+                    environment for maximum efficiency of body and mind</li>
+                  <li><b style="font-size:20px ;">B</b>est audio-video systems for faculties to
+                    reach eyes and ears of every student with complete clarity</li>
+                  <li><b style="font-size:20px ;">D</b>
+                    istraction-free atmosphere to help maintain the required discipline in classrooms</li>
+                  <li><b style="font-size:20px ;">D</b>edicated area for one-to-one interaction
+                    between students and faculties for doubt clearing</li>
+                </ul>
+
+                </p>
+
+              </div>
+
+            </div>
+          </div>
+
+
+          <a href="" id="register"></a>
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+    <!-- the master approach ends  -->
+
+    <!-- how to register starts -->
+
+    <div class="container-fluid pt-20 pb-20" style="background-color:rgb(241,243,248) ;">
+      <div style="width: 75%; margin: auto; ">
+        <h1><b class="text-3xl" style=" color: rgb(7,217,178); margin-left: -20px; ">How to Register</b></h1>
+        <ul class="mt-7">
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i> &nbsp;&nbsp; Visit MTRE
+            website:
+            iesmaster.org/master-talent-reward-exam.</li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i>&nbsp;&nbsp; Click on
+            ‘Register’ button. Registration page opens,
+            fill all the details on the MTRE online registration
+            form.</li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i>
+            &nbsp;&nbsp; After submitting you will get the User ID and Password and will be directed to payment gateway
+            page.</li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i> &nbsp;&nbsp; Make the
+            payment of Rs 50/- as the registration fee.
+          </li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i>
+            &nbsp;&nbsp; After the payment process, response page will open where you can check your payment details.
+          </li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i>&nbsp;&nbsp; If the
+            payment failed anyway, you can pay the same
+            by logging into your student zone with the login
+            credentials sent to your registered &nbsp;&nbsp; &nbsp;&nbsp;mobile number.</li>
+        </ul>
+      </div>
+      <a href="" id="instruction"></a>
+
+
+    </div>
+
+    <!-- how to register ends -->
+
+    <!-- instruction started -->
+    <div class="container pt-20 pb-20">
+      <div style="width: 75%; margin: auto; ">
+        <h1><b class="text-3xl" style=" color: rgb(7,217,178); margin-left: -20px;">Instructions</b></h1>
+        <ul class="mt-7">
+          <li><i class="fa fa-hand-o-right" aria-hidden="true" style="color: rgb(7,217,178);"></i>
+            &nbsp;&nbsp;The MTRE exam will start on 04 December, 2022 at 6:00 PM sharp. Students will not be allowed to
+            take the
+            MTRE Exam after 6:15 PM.</li>
+          <li><i class="fa fa-hand-o-right" aria-hidden="true" style="color: rgb(7,217,178);"></i> &nbsp;&nbsp;Make sure that you
+            have a computer system
+            (desktop/laptop) with updated windows version, google chrome and
+            working webcam. &nbsp;&nbsp;Without webcam, you can not take the test</li>
+          <li> <i class="fa fa-hand-o-right" aria-hidden="true" style="color: rgb(7,217,178);"></i> &nbsp;&nbsp;Before taking the
+            MTRE, make sure that your
+            Internet connectivity is not interrupted during the exam.</li>
+          <li> <i class="fa fa-hand-o-right" aria-hidden="true" style="color: rgb(7,217,178);"></i> &nbsp;&nbsp;While writing MTRE,
+            students are required to keep
+            their system’s webcam turned on, and keep it running
+            during the entire duration of &nbsp;&nbsp;exam to ensure that only bonafide person is writing the exam.</li>
+          <li> <i class="fa fa-hand-o-right" aria-hidden="true" style="color: rgb(7,217,178);"></i> &nbsp;&nbsp;The candidate has
+            the flexibility to jump over to
+            any question while writing MTRE.</li>
+          <li><i class="fa fa-hand-o-right" aria-hidden="true" style="color: rgb(7,217,178);"></i>
+            &nbsp;&nbsp;Each question of the MTRE exam is allotted specific time duration to attempt. The allotted time for each
+            question can be viewed on the &nbsp;&nbsp;top right corner of the screen while writing MTRE.</li>
+          <li> <i class="fa fa-hand-o-right" aria-hidden="true" style="color: rgb(7,217,178);"></i> &nbsp;&nbsp;If a candidate fails
+            to answer any particular
+            question within the stipulated time, he will be
+            automatically redirected to the next question &nbsp;&nbsp;having balance time.</li>
+          <li><i class="fa fa-hand-o-right" aria-hidden="true" style="color: rgb(7,217,178);"></i> &nbsp;&nbsp;If a candidate fails
+            to submit his answer to any
+            particular question by clicking on the <b>‘Save and Next’</b>
+            button within the allotted time, &nbsp;&nbsp;his response will not be saved.</li>
+          <li><i class="fa fa-hand-o-right" aria-hidden="true" style="color: rgb(7,217,178);"></i> &nbsp;&nbsp;Once a candidate has attempted all the questions of MTRE, he has to click on the ‘Submit’ button to finish
+            the test.</li>
+          <li><i class="fa fa-hand-o-right" aria-hidden="true" style="color: rgb(7,217,178);"></i> &nbsp;&nbsp;If a candidate fails
+            to complete the MTRE exam in
+            allotted time, then his test will get submitted
+            automatically.</li>
+          <li><i class="fa fa-hand-o-right" aria-hidden="true" style="color: rgb(7,217,178);"></i> &nbsp;&nbsp;During the MTRE Test,
+            all the candidates will be
+            provided with a virtual scientific calculator on computer
+            screen which has to be used &nbsp;&nbsp;to do calculation while answering questions. No physical calculator will be
+            allowed. The same applies to mobile phones and wrist &nbsp;&nbsp;watches with calculation facilities.</li>
+        </ul>
+        <h5 class="mt-4">
+          <b>Note:</b> All the above-mentioned instructions are to be adhered in good faith, failing which your
+          candidature will stand null and void.
+
+        </h5>
+      </div>
+      <a href="" id="t&C"></a>
+
+
+    </div>
+    <!-- instruction ends -->
+
+    <!-- T&C Started  -->
+
+    <div class="container-fluid pt-20 pb-20" style="background-color:  rgb(241,243,248);">
+      <div style="width: 75%; margin: auto; ">
+        <h1><b class="text-3xl" style=" color: rgb(7,217,178);margin-left: -20px; ">Terms & Conditions</b></h1>
+        <ol type="1" class="mt-7">
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i> &nbsp;&nbsp;The MTRE qualified
+            candidates must register with IES
+            Master in Civil Engineering branch to avail the scholarship.</li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i>
+            &nbsp;&nbsp;The selected students have to enrol themselves with IES Master within a month from the date of declaration
+            of MTRE result. Failing to do so, &nbsp;&nbsp;the seat will be allocated to the next student as per the merit list.</li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i>
+            &nbsp;&nbsp;The selected MTRE candidates will have to deposit the entire balance fee to avail the benefit.</li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i> &nbsp;&nbsp;Under MTRE, admissions
+            once taken can neither be
+            withdrawn, nor transferred.
+          </li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i>
+            &nbsp;&nbsp;IES Master reserves the right to change, modify, or terminate MTRE anytime, at its discretion.</li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i> 
+            &nbsp;&nbsp;I In all the aspects related to MTRE, the IES Master Management’s decision will be final and binding.</li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i> &nbsp;&nbsp;Candidate selected
+            through MTRE will not be eligible
+            for any other discount.</li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i>&nbsp;&nbsp; Both Non-IES Master and
+            Ex-IES Master students can
+            write MTRE.</li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i> &nbsp;&nbsp;The benefits of MTRE will
+            be applicable on batches
+            starting during December, 2022 to March, 2023.</li>
+          <li><i class="	fa fa-circle" aria-hidden="true" style="color: rgb(7,217,178); "></i>&nbsp;&nbsp; Discount is applicable on
+            the tuition fees only.
+          </li>
+
+        </ol>
+        <a href="" id="FAQs"></a>
+
+      </div>
+
+    </div>
+
+
+    <!-- FAQs started  -->
+    <div class="container-fluid bg-img default-overlay mt-45 pb-20 pt-20 "
+      style="background-color: rgb(178,194,191); background-image: url(assets/img/bg-1.jpg); ">
+
+      <div class="about-dir">
+        <!-- <h3><b>FAQs</b></h3> -->
+        <main class="p-2 bg-light-blue">
+          <div class="flex justify-center items-start my-2 ">
+            <div class="w-full sm:w-10/12  my-1  FAQs" style="width: 80%; margin: auto; ">
+              <h1 class="text-4xl font-semibold text-vnet-blue mb-2" style="color: rgb(7,217,178);"> FAQ's</h1>
+              <ul class="flex flex-col">
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(1)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 p-3 cursor-pointer">
+                    <span style=" font-size:14px ">Is there any fee for MTRE registration?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div x-ref="tab" :style="handleToggle()"
+                    class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all">
+                    <p class="p-3 text-gray-900">
+                      Yes, candidates need to pay online a nominal fee of Rs. 50/- to register themselves for MTRE.
+
+
+
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(2)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">Is there any cash prizes for winners?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      No, there would not be any cash prize for winners. The winners would only get a discount of upto
+                      100% of the tuition fee on the basis of the result of the scholarship test from a nationwide pool
+                      of
+                      applicants.
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(3)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px "> Will there be multiple time slots for MTRE?
+                      IES?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      No, there would not be multiple time slots to write MTRE.
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(4)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">Is MTRE an offline or online test? Are there any particular exam
+                      centres?
+                    </span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      No, MTRE is an online test. All you require is a desktop/laptop with updated windows, google
+                      chrome
+                      and a Web Camera and Internet connection.
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(5)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">I am an existing student of IES Master, and have paid my complete
+                      course fee. Will I get the discount amount in refund if I get Scholarship?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      Current year students and ex-students of IES Master Classroom Program would only be eligible for
+                      one
+                      discount whichever is maximum. The discounts will be applicable on Classroom Batches and Live
+                      Online
+                      Batches start during December,2022 to March, 2023 only.
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(6)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">I have already qualified for a discount through MTRE last year, but
+                      due
+                      to some reason I could not enrol myself for classroom or Live Online program. Can I write the MTRE
+                      this year to claim a different discount slab?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      Yes, students who have already qualified MTRE last year but somehow could not enrol for classroom
+                      program or Live Online Course are eligible to write MTRE this year to claim a different discount
+                      slab.
+                    </p>
+                  </div>
+                </li>
+
+
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(7)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">Is there any time limit to answer the MTRE question paper?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      Yes,There is a time limit of 1 hour to answer the complete MTRE question paper. Also, there would
+                      be
+                      a time limitation to answer each question.
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(8)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">Is there any individual minimum qualifying score for each section of
+                      MTRE question paper?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      No, there is no minimum qualifying score for availing MTRE discount.
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(9)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">When will be the result of MTRE announced?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      The result of MTRE would be announced within 5 working days from the date of exam. In case there
+                      is
+                      any change in the date of result announcement, candidates would be notified through SMS/e-mail/IES
+                      Master website/app.
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(10)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">Can I write MTRE exam on smartphone?
+                      syllabus?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      No, you can not write MTRE on your smartphone. It can be taken on Desktop/Laptop with updated
+                      windows, Google Chrome and active webcam only
+                    </p>
+                  </div>
+                </li>
+                <li class=" bg-white my-2 shadow-lg" x-data="accordion(11)" style="cursor:pointer ;">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px; ">When is MTRE scheduled to be conducted?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      MTRE is scheduled to be conducted on 04 December, 2022.
+
+                    </p>
+                  </div>
+                </li>
+                <li class=" my-2 " x-data="accordion(12)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">What is the syllabus for MTRE?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900" style="background-color:white ;">
+
+                    <table>
+                      <tr>
+                        <td>
+                          Civil Engineering</td>
+                        <td>25 MCQs</td>
+                      </tr>
+                      <tr>
+                        <td>Engineering Mathematics
+                        </td>
+                        <td>10 MCQs</td>
+                      </tr>
+                      <tr>
+                        <td>Reasoning & Aptitude
+                        </td>
+                        <td>10 MCQs</td>
+                      </tr>
+                      <tr>
+                        <td>General English
+                        </td>
+                        <td>05 MCQs</td>
+                      </tr>
+
+
+                    </table>
+
+                    <div class="grid grid-cols-4 gap-4  text-center pt-5 ">
+                      <div>
+                        <table>
+                          <tr>
+                            <th colspan="2" style="background-color:rgb(47,61,94); color: rgb(7,217,178); ">Civil
+                              Engineering</th>
+
+                          <tr>
+                            <th>Subjects </th>
+                            <th>Ques.</th>
+                          </tr>
+                          <tr>
+                            <td>Strength of Materials</td>
+                            <td>5</td>
+
+                          </tr>
+                          <tr>
+                            <td>Design of Concrete Structures</td>
+                            <td>4</td>
+                          </tr>
+
+                          <tr>
+                            <td>Soil Mechanics</td>
+                            <td>4</td>
+                          </tr>
+
+                          <tr>
+                            <td>Environmental
+                              Engineering</td>
+                            <td> 4</td>
+                          </tr>
+                          <tr>
+                            <td>Fluid Mechanics</td>
+                            <td> 4</td>
+                          </tr>
+                          <tr>
+                            <td>Highway Engineering</td>
+                            <td>4</td>
+                          </tr>
+
+                        </table>
+
+
+                      </div>
+                      <div>
+                        <table>
+                          <tr>
+                            <th colspan="2" style="background-color:rgb(47,61,94); color: rgb(7,217,178); ">Engineering
+                              Mathematics
+                            </th>
+
+                          <tr>
+                            <th>Topics </th>
+                            <th>Ques.</th>
+                          </tr>
+                          <tr>
+                            <td>Calculus</td>
+                            <td>2</td>
+
+                          </tr>
+                          <tr>
+                            <td>Ordinary differential Equations</td>
+                            <td>2</td>
+                          </tr>
+
+                          <tr>
+                            <td>Partial differential Equations</td>
+                            <td>2</td>
+                          </tr>
+
+                          <tr>
+                            <td>Linear Algebra</td>
+                            <td> 2</td>
+                          </tr>
+                          <tr>
+                            <td>Probability & Statistics</td>
+                            <td> 2</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                          </tr>
+
+                        </table>
+
+
+                      </div>
+                      <div>
+                        <table>
+                          <tr>
+                            <th colspan="2" style="background-color:rgb(47,61,94); color: rgb(7,217,178); ">Reasoning
+                              and Aptitude
+                            </th>
+
+                          <tr>
+                            <th>Subjects </th>
+                            <th>Ques.</th>
+                          </tr>
+                          <tr>
+                            <td>Numerical Computation</td>
+                            <td>2</td>
+
+                          </tr>
+                          <tr>
+                            <td>Numerical Estimation</td>
+                            <td>2</td>
+                          </tr>
+
+                          <tr>
+                            <td>Numerical Reasoning </td>
+                            <td>2</td>
+                          </tr>
+
+                          <tr>
+                            <td>Data Interpretation</td>
+                            <td> 2</td>
+                          </tr>
+                          <tr>
+                            <td>Fluid Mechanics</td>
+                            <td> 4</td>
+                          </tr>
+                          <tr>
+                            <td>Coding and Decoding</td>
+                            <td>2</td>
+                          </tr>
+
+                        </table>
+
+
+                      </div>
+                      <div>
+                        <table>
+                          <tr>
+                            <th colspan="2"
+                              style="background-color:rgb(47,61,94); color: rgb(7,217,178); padding-bottom: 20px; ">
+                              General English</th>
+                          </tr>
+                          <tr>
+                            <th>Topics </th>
+                            <th>Ques.</th>
+                          </tr>
+                          <tr>
+                            <td>Common Error</td>
+                            <td>5</td>
+
+                          </tr>
+                          <tr>
+                            <td>Sentence Arrangement</td>
+                            <td>1</td>
+                          </tr>
+
+                          <tr>
+                            <td>Verbal Ability</td>
+                            <td>1</td>
+                          </tr>
+
+                          <tr>
+                            <td>Word Groups</td>
+                            <td> 1</td>
+                          </tr>
+                          <tr>
+                            <td>Synonyms-Antonyms</td>
+                            <td> 1</td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                          <tr>
+                            <td></td>
+                            <td></td>
+                          </tr>
+
+
+                        </table>
+                      </div>
+                    </div>
+
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(13)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">What is the exam pattern of MTRE?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      MTRE is an online mode test that can be written from anywhere using a system (Desktop or Laptop)
+                      with updated windows, Google Chrome Browser, Web camera and Internet connectivity. The questions
+                      will be of objective type. Each Question will have 4 alternative options.The total time duration
+                      for
+                      writing MTRE will be 1 hour. In total there will be 50 questions of 2 marks each. There would be
+                      negative marking of 0.50 marks for every wrong answer.
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(14)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">How many marks do I need to score to avail the
+                      discount/scholarship?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      There is no minimum cut-off. Merit list would be released post MTRE. Basing on the marks score,
+                      the
+                      discount/scholarship will be offered.
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(15)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">What if I face any technical glitch or Internet failure while writing
+                      MTRE?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      You have to make sure that Internet is working at the start and while submitting the test paper.
+                      Also, the Web camera is mandatory while writing MTRE. Failing which you would not be able to avail
+                      MTRE benefits. Also, you can write to mtre@iesmaster.org or call at 80100 09955.
+
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(16)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">What are the eligibility criteria for appearing in MTRE?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      MTRE is for students who have obtained their graduate degree (B.Tech) in Civil Engineering
+                      streams.
+                      The scholarship program is also open to those students who are in the third/final year of their
+                      engineering degree course in civil engineering.
+
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(17)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">What are the documents that will be required for MTRE
+                      registration?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      Registration for MTRE can only be completed online and documents required will be scanned images
+                      of
+                      passport size photograph, signature and ID proof.
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(18)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">Will I need a Login User Name and Password to write MTRE?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      Yes, you would be requiring a User Name and Password to write MTRE. The User Name and Password
+                      will
+                      be generated at the time of registering for MTRE, and the same would be sent to you through
+                      SMS/E-mail.
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(19)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">What if I forget my password for MTRE Website Login?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      In case you have forgotten your password, you can click on ‘Forgot Password’, and then follow the
+                      process to reset your password. You would also receive the new password set by you on your
+                      registered mobile no./e-mail ID.
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(20)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">Can I edit my Profile information after registering for MTRE?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      You can change your photograph and signature only. Other than these two things, you cannot change
+                      any other information.
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(21)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">What if my test ends abruptly?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      The only thing you have to make sure is that you do not quit the MTRE test panel by pressing Back
+                      button, Refresh button, close the test window or opening a new tab. If your test freezes or ends
+                      due
+                      to any other reason will not be considered as submission of the test.
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(22)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">Can I use calculator?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      Yes, you can use a calculator while writing MTRE.
+
+                    </p>
+                  </div>
+                </li>
+                <li class="bg-white my-2 shadow-lg" x-data="accordion(23)">
+                  <h2 @click="handleClick()"
+                    class="flex flex-row justify-between items-center font-semibold ml-15 cursor-pointer p-3 ">
+                    <span style=" font-size:14px ">Who should I contact in case my queries are not resolved here?</span>
+                    <svg :class="handleRotate()"
+                      class="fill-current text-purple-700 h-6 w-6 transform transition-transform duration-500"
+                      viewBox="0 0 20 20">
+                      <path
+                        d="M13.962,8.885l-3.736,3.739c-0.086,0.086-0.201,0.13-0.314,0.13S9.686,12.71,9.6,12.624l-3.562-3.56C5.863,8.892,5.863,8.611,6.036,8.438c0.175-0.173,0.454-0.173,0.626,0l3.25,3.247l3.426-3.424c0.173-0.172,0.451-0.172,0.624,0C14.137,8.434,14.137,8.712,13.962,8.885 M18.406,10c0,4.644-3.763,8.406-8.406,8.406S1.594,14.644,1.594,10S5.356,1.594,10,1.594S18.406,5.356,18.406,10 M17.521,10c0-4.148-3.373-7.521-7.521-7.521c-4.148,0-7.521,3.374-7.521,7.521c0,4.147,3.374,7.521,7.521,7.521C14.148,17.521,17.521,14.147,17.521,10">
+                      </path>
+                    </svg>
+                  </h2>
+                  <div class="border-l-2 border-purple-600 overflow-hidden max-h-0 duration-500 transition-all"
+                    x-ref="tab" :style="handleToggle()">
+                    <p class="p-3 text-gray-900">
+                      To get your queries or issues related to MTRE answered, you can write to mtre@iesmaster.org or
+                      call at 80100 09955.
+
+
+                    </p>
+                  </div>
+                </li>
+
+
+              </ul>
+            </div>
+          </div>
+        </main>
+        <script>
+          document.addEventListener('alpine:init', () => {
+            Alpine.store('accordion', {
+              tab: 0
+            });
+
+            Alpine.data('accordion', (idx) => ({
+              init() {
+                this.idx = idx;
+              },
+              idx: -1,
+              handleClick() {
+                this.$store.accordion.tab = this.$store.accordion.tab === this.idx ? 0 : this.idx;
+              },
+              handleRotate() {
+                return this.$store.accordion.tab === this.idx ? 'rotate-180' : '';
+              },
+              handleToggle() {
+                return this.$store.accordion.tab === this.idx ? `max-height: ${this.$refs.tab.scrollHeight}px` : '';
+              }
+            }));
+          })
+        </script>
+
+
+
+
+
+
+
+      </div>
+    </div>
+
+    <!-- faqs ends  -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="bg-white dark:bg-gray-900 pt-20 " style="background-color: black; ">
+      <!-- <img src="assets/img/logo-1.png" alt="" style="margin: auto;height: 70px; "  > -->
+
+      <div class="grid grid-cols-2 gap-8 py-8 px-6 md:grid-cols-4">
+        <div>
+          <h2 class="mb-6 text-sm font-bold  text-6xl text-center text-gray-500 dark:text-gray-400"><i
+              class="fa fa-map-marker"></i></h2>
+
+          <h2 class="mb-6 text-sm font-bold  text-3xl text-center text-gray-500 dark:text-gray-400">Address</h2>
+          <h2 class="mb-6 text-sm font-semibold text-xl text-center text-gray-500 dark:text-gray-400">F-126, Katwaria
+            Sarai
+            New Delhi, 110016</h2>
+
+
+
+        </div>
+        <div>
+          <h2 class="mb-6 text-sm font-bold  text-6xl text-center text-gray-500 dark:text-gray-400"><i
+              class="fa fa-phone"></i></h2>
+          <h2 class="mb-6 text-sm font-bold text-center text-3xl text-gray-500 dark:text-gray-400">Call Us</h2>
+          <h2 class="mb-6 text-sm font-semibold text-center text-2xl text-gray-500 dark:text-gray-400">Mobile: +91
+            9711853908
+            <br> Hot Line: +91 8010009955
+          </h2>
+
+
+        </div>
+        <div>
+          <h2 class="mb-6 text-sm font-bold  text-6xl text-center text-gray-500 dark:text-gray-400"><i
+              class="fa fa-envelope"></i></h2>
+          <h2 class="mb-6 text-sm font-bold text-center text-3xl text-gray-500 dark:text-gray-400">Email</h2>
+
+          <h2 class="mb-6 text-sm font-semibold text-2xl text-center text-gray-500 dark:text-gray-400">
+            mtre@iesmaster.org</h2>
+        </div>
+        <div>
+          <h2 class="mb-6 text-sm font-bold  text-6xl text-center text-gray-500 dark:text-gray-400"><i
+              class="fa fa-clock-o"></i></h2>
+          <h2 class="mb-6 text-sm font-bold text-center text-3xl text-gray-500 dark:text-gray-400">Working Hour</h2>
+          <h2 class="mb-6 text-sm font-semibold text-2xl text-center text-gray-500 dark:text-gray-400">Mon to Sat - 9:30
+            AM to 8:00 PM</h2>
+
+
+        </div>
+      </div>
+      <div class="py-6 px-4 bg-black dark:bg-gray-700 md:flex md:items-center md:justify-between">
+        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center"><b>All rights reserved - Copyright © 2022
+            IES Master</b>
+        </span>
+        <span class="text-sm text-gray-500  dark:text-gray-300 sm:text-center"><a
+            href="https://iesmaster.org/"><b>IES-Master</b></a> </span>
+        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center"><a
+            href="https://iesmaster.org/program/classroom"><b>Classroom Program</b></a> </span>
+        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center"><a
+            href="https://iesmaster.org/admission"><b>Admission</b></a> </span>
+        <span class="text-sm text-gray-500 dark:text-gray-300 sm:text-center"><a href=""><i class="fa fa-envelope"></i>
+            <b>Get in touch</b></a> </span>
+        <div class="flex mt-4 space-x-6 sm:justify-center md:mt-0">
+          <a href="https://www.facebook.com/iesmaster01/" target="_blank" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <span class="sr-only">Facebook page</span>
+          </a>
+          <a href="https://www.instagram.com/ies_master/" target="_blank" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <span class="sr-only">Instagram page</span>
+          </a>
+          <a href="https://twitter.com/ies_master" target="_blank" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84">
+              </path>
+            </svg>
+            <span class="sr-only">Twitter page</span>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <span class="sr-only">GitHub account</span>
+          </a>
+          <a href="#" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
+            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path fill-rule="evenodd"
+                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10c5.51 0 10-4.48 10-10S17.51 2 12 2zm6.605 4.61a8.502 8.502 0 011.93 5.314c-.281-.054-3.101-.629-5.943-.271-.065-.141-.12-.293-.184-.445a25.416 25.416 0 00-.564-1.236c3.145-1.28 4.577-3.124 4.761-3.362zM12 3.475c2.17 0 4.154.813 5.662 2.148-.152.216-1.443 1.941-4.48 3.08-1.399-2.57-2.95-4.675-3.189-5A8.687 8.687 0 0112 3.475zm-3.633.803a53.896 53.896 0 013.167 4.935c-3.992 1.063-7.517 1.04-7.896 1.04a8.581 8.581 0 014.729-5.975zM3.453 12.01v-.26c.37.01 4.512.065 8.775-1.215.25.477.477.965.694 1.453-.109.033-.228.065-.336.098-4.404 1.42-6.747 5.303-6.942 5.629a8.522 8.522 0 01-2.19-5.705zM12 20.547a8.482 8.482 0 01-5.239-1.8c.152-.315 1.888-3.656 6.703-5.337.022-.01.033-.01.054-.022a35.318 35.318 0 011.823 6.475 8.4 8.4 0 01-3.341.684zm4.761-1.465c-.086-.52-.542-3.015-1.659-6.084 2.679-.423 5.022.271 5.314.369a8.468 8.468 0 01-3.655 5.715z"
+                clip-rule="evenodd"></path>
+            </svg>
+            <span class="sr-only">Dribbble account</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+</body>
+
+</html>
