@@ -212,9 +212,27 @@ ul li {
 
 @media only screen and (max-width:768px) {
   nav button{
-    display: none;
+ 
+    height: 35px;
+    
+
     
   }
+  .sizeheading{
+    font-size: 40px;
+  }
+  .yvideo{
+    margin-left: 7%;
+  }
+  .yvideo iframe{
+    width: 80vw;
+    height: 57vh;
+  }
+  .master-approach .rounded-lg {
+    margin-top: 20px;
+  }
+ 
+
  
 
 }
