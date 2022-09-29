@@ -208,6 +208,23 @@ ul li {
   height: 57vh;
 }
 
+@media only screen and (max-width:424px) {
+  nav button{
+ 
+    height: 35px;
+    width: 53px;
+    
+    
+
+    
+    
+
+    
+  }
+}
+
+
+
 
 
 @media only screen and (max-width:768px) {
@@ -218,6 +235,7 @@ ul li {
 
     
   }
+  
   .sizeheading{
     font-size: 40px;
   }
